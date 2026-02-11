@@ -344,8 +344,8 @@ const Home = () => {
               Join ICETPSS 2026
             </h2>
             <p className="text-yellow-300 text-lg mb-10 max-w-3xl font-medium">
-              Be part of a global forum redefining the future of economics,
-              management, and digital business ecosystems.
+              Be part of a global forum redefining the future of Robotics,
+              Mechatronics, and Sustainability Ecosystem.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-start">
               <Button
