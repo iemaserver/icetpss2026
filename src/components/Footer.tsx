@@ -79,13 +79,23 @@ export const Footer = () => {
                   <Mail className="h-5 w-5 text-cyan-700" />
                 </div>
                 <a
-                  href="mailto:Sanghamitra@iem.edu.in"
+                  href="mailto:koyel.ganguly@iem.edu.in"
                   className="hover:text-cyan-600 transition-colors"
                 >
-                  Sanghamitra@iem.edu.in Sanghamitra@iem.edu.in
+                  koyel.ganguly@iem.edu.in
                 </a>
               </li>
-              {/* Phone number removed */}
+              <li className="flex items-center gap-3">
+                <div className="bg-cyan-100 p-2 rounded-lg">
+                  <Mail className="h-5 w-5 text-cyan-700" />
+                </div>
+                <a
+                  href="mailto:sanghamitra.di@iem.edu.in"
+                  className="hover:text-cyan-600 transition-colors"
+                >
+                  sanghamitra.di@iem.edu.in
+                </a>
+              </li>
             </ul>
           </div>
         </div>

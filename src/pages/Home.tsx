@@ -141,7 +141,7 @@ const Home = () => {
             <h2 className="text-4xl font-bold mb-4 text-[#0f172a]">
               About ICETPSS
             </h2>
-            <p className="text-[#1e293b] text-lg leading-relaxed mb-8">
+            <p className="text-[#1e293b] text-lg leading-relaxed mb-6">
               The International Conference on Physical Sciences and
               Sustainability (ICETPSS-26) provides a global platform for
               researchers, academicians, industry experts, and policymakers to
@@ -151,7 +151,7 @@ const Home = () => {
               research that contributes to long-term environmental, energy, and
               societal sustainability.
             </p>
-            <p className="text-[#1e293b] text-lg leading-relaxed mb-8">
+            <p className="text-[#1e293b] text-lg leading-relaxed mb-6">
               ICETPSS focuses on the application of core principles in physics
               and related disciplines to address contemporary sustainability
               challenges. By integrating theoretical foundations, experimental
@@ -159,12 +159,27 @@ const Home = () => {
               encourages the development of scientifically rigorous solutions
               that support sustainable systems and technologies.
             </p>
-            <p className="text-[#1e293b] text-lg leading-relaxed mb-8">
+            <p className="text-[#1e293b] text-lg leading-relaxed mb-6">
               The conference is being organized around three broad thematic
               tracks. The Energy and Materials Physics for Sustainability track
               emphasizes fundamental studies in energy conversion, materials
               science, and nanoscale phenomena that underpin sustainable
-              technologies.
+              technologies. The Environmental and Earth System Physics track
+              highlights the role of physical sciences in understanding Earth's
+              climate and environmental systems. The Applied and Computational
+              Physics for Sustainable Systems track focuses on the application
+              of physics-based methods to sustainable technologies and systems.
+              It encompasses applied physics, computational and theoretical
+              modelling, instrumentation, photonics, and interdisciplinary
+              system analysis, as well as the role of physics in supporting
+              sustainability goals.
+            </p>
+            <p className="text-[#1e293b] text-lg leading-relaxed mb-8">
+              Through keynote lectures, invited talks, contributed papers, and
+              panel discussions, ICETPSS-26 seeks to promote knowledge exchange,
+              encourage collaboration across disciplines, and strengthen the
+              contribution of physical sciences to sustainable development at
+              regional and global levels.
             </p>
 
             <div className="space-y-4">
