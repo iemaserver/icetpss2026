@@ -142,18 +142,36 @@ const Home = () => {
               About ICETPSS
             </h2>
             <p className="text-[#1e293b] text-lg leading-relaxed mb-8">
-              The International Conference on Emerging Trends in Physical
-              Sciences and Sustainability (ICETPSS 2026) provides a global
-              platform to exchange ideas and discoveries across domains like Al,
-              loT, Data Science, and Robotics - uniting academia, research, and
-              industry in shaping the digital future.
+              The International Conference on Physical Sciences and
+              Sustainability (ICETPSS-26) provides a global platform for
+              researchers, academicians, industry experts, and policymakers to
+              explore the critical role of physical sciences in advancing
+              sustainable development. The conference aims to foster
+              interdisciplinary dialogue and promote fundamental and applied
+              research that contributes to long-term environmental, energy, and
+              societal sustainability.
+            </p>
+            <p className="text-[#1e293b] text-lg leading-relaxed mb-8">
+              ICETPSS focuses on the application of core principles in physics
+              and related disciplines to address contemporary sustainability
+              challenges. By integrating theoretical foundations, experimental
+              investigations, and computational approaches, the conference
+              encourages the development of scientifically rigorous solutions
+              that support sustainable systems and technologies.
+            </p>
+            <p className="text-[#1e293b] text-lg leading-relaxed mb-8">
+              The conference is being organized around three broad thematic
+              tracks. The Energy and Materials Physics for Sustainability track
+              emphasizes fundamental studies in energy conversion, materials
+              science, and nanoscale phenomena that underpin sustainable
+              technologies.
             </p>
 
             <div className="space-y-4">
               {[
-                "Globally recognized flagship conference",
-                "Keynotes by renowned industry leaders and pioneers",
-                "Participants from 1000+ companies",
+                "Globally recognized conference on physical sciences",
+                "Keynotes by renowned scientific leaders and pioneers",
+                "International participants from leading research institutions",
               ].map((text, idx) => (
                 <div
                   key={idx}
