@@ -162,8 +162,7 @@ const CallForPapers = () => {
             </li>
             <li>
               • Papers must be written in{" "}
-              <span className="text-sky-600 font-semibold">English</span>{" "}
-              following the IEEE format.
+              <span className="text-sky-600 font-semibold">English</span> .
             </li>
             <li>
               • Submit via the{" "}
@@ -251,7 +250,7 @@ const CallForPapers = () => {
         {/* CTA Section */}
         <div className="text-center">
           <h3 className="text-2xl font-bold mb-6 text-sky-700">
-            Be Part of <span className="text-cyan-600">ICETPSS 2026</span> —
+            Be Part of <span className="text-cyan-600">ICETPS 2026</span> —
             Submit Your Work Today!
           </h3>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

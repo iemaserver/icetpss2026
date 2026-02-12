@@ -12,7 +12,7 @@ export const Footer = () => {
           {/* About Section */}
           <div>
             <h3 className="text-2xl font-bold mb-4 text-cyan-700">
-              ICETPSS 2026
+              ICETPS 2026
             </h3>
             <p className="text-sm text-slate-600 mb-3 leading-relaxed">
               <strong>
@@ -127,7 +127,7 @@ export const Footer = () => {
         {/* Footer Bottom */}
         <div className="text-center text-sm text-slate-500">
           <p>
-            © 2026 ICETPSS | In association with EMLV - The Leonard De Vinci
+            © 2026 ICETPS | In association with EMLV - The Leonard De Vinci
             Business School, Paris
           </p>
           <p className="mt-1">

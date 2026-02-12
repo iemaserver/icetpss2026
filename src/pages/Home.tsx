@@ -82,7 +82,7 @@ const Home = () => {
           <div className="max-w-2xl mt-16 md:mt-24 mb-8 md:mb-12">
             <p className="text-[#ffff00] font-semibold tracking-wide mb-2">
               {" "}
-              ICETPSS 2026
+              ICETPS 2026
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-[#ffff] mb-4">
               International Conference on Emerging Trends in Physical Sciences
@@ -132,18 +132,18 @@ const Home = () => {
           <div className="relative">
             <img
               src={aboutImg}
-              alt="About ICETPSS"
+              alt="About ICETPS"
               className="w-full rounded-3xl md:h-[420px] lg:h-[500px] object-cover"
             />
           </div>
 
           <div>
             <h2 className="text-4xl font-bold mb-4 text-[#0f172a]">
-              About ICETPSS
+              About ICETPS
             </h2>
             <p className="text-[#1e293b] text-lg leading-relaxed mb-6">
               The International Conference on Physical Sciences and
-              Sustainability (ICETPSS-26) provides a global platform for
+              Sustainability (ICETPS-26) provides a global platform for
               researchers, academicians, industry experts, and policymakers to
               explore the critical role of physical sciences in advancing
               sustainable development. The conference aims to foster
@@ -152,7 +152,7 @@ const Home = () => {
               societal sustainability.
             </p>
             <p className="text-[#1e293b] text-lg leading-relaxed mb-6">
-              ICETPSS focuses on the application of core principles in physics
+              ICETPS focuses on the application of core principles in physics
               and related disciplines to address contemporary sustainability
               challenges. By integrating theoretical foundations, experimental
               investigations, and computational approaches, the conference
@@ -176,7 +176,7 @@ const Home = () => {
             </p>
             <p className="text-[#1e293b] text-lg leading-relaxed mb-8">
               Through keynote lectures, invited talks, contributed papers, and
-              panel discussions, ICETPSS-26 seeks to promote knowledge exchange,
+              panel discussions, ICETPS-26 seeks to promote knowledge exchange,
               encourage collaboration across disciplines, and strengthen the
               contribution of physical sciences to sustainable development at
               regional and global levels.
@@ -356,7 +356,7 @@ const Home = () => {
           {/* Left: Text and Buttons */}
           <div>
             <h2 className="text-4xl font-bold text-transparent bg-clip-text bg-[#ffff] mb-6">
-              Join ICETPSS 2026
+              Join ICETPS 2026
             </h2>
             <p className="text-yellow-300 text-lg mb-10 max-w-3xl font-medium">
               Be part of a global forum redefining the future of Robotics,

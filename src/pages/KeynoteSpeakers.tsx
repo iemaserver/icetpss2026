@@ -41,9 +41,9 @@ const KeynoteSpeakers = () => {
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-sky-500 mx-auto mb-6 rounded"></div>
           <p className="text-lg text-[#1e293b] max-w-3xl mx-auto leading-relaxed">
-            <span className="font-semibold text-sky-600">ICETPSS 2026</span>{" "}
-            will feature a lineup of distinguished keynote speakers from across
-            the globe. Our confirmed speaker list will be announced soon — stay
+            <span className="font-semibold text-sky-600">ICETPS 2026</span> will
+            feature a lineup of distinguished keynote speakers from across the
+            globe. Our confirmed speaker list will be announced soon — stay
             tuned for updates!
           </p>
         </div>
@@ -120,7 +120,7 @@ const KeynoteSpeakers = () => {
         >
           <Card className="p-10 bg-gradient-to-br from-blue-100 to-cyan-50 border border-cyan-200 rounded-2xl shadow-sm">
             <h2 className="text-3xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-sky-600">
-              Interested in Speaking at ICETPSS 2026?
+              Interested in Speaking at ICETPS 2026?
             </h2>
             <p className="text-lg text-[#334155] mb-4">
               We welcome proposals for keynote sessions, panel discussions, and
@@ -130,10 +130,10 @@ const KeynoteSpeakers = () => {
             <p className="text-[#334155]">
               Reach out to us at{" "}
               <a
-                href="mailto:speakers@icetpss2026.org"
+                href="mailto:speakers@icetps2026.org"
                 className="text-cyan-600 hover:underline font-semibold"
               >
-                speakers@icetpss2026.org
+                speakers@icetps2026.org
               </a>{" "}
               to collaborate and share your expertise at this prestigious event.
             </p>

@@ -59,7 +59,7 @@ const Contact = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-sky-500 mx-auto mb-6 rounded"></div>
           <p className="text-lg text-slate-700 max-w-3xl mx-auto leading-relaxed">
             Have questions about{" "}
-            <span className="text-sky-600 font-semibold">ICETPSS 2026</span>?
+            <span className="text-sky-600 font-semibold">ICETPS 2026</span>?
             Reach out to us through the contact form or view our primary details
             below.
           </p>

@@ -21,7 +21,7 @@ const Submission = () => {
           <p className="text-lg text-slate-700 max-w-3xl mx-auto leading-relaxed mb-8">
             Submit your research paper through our official submission system.
             Please review all guidelines carefully before submission to ensure
-            compliance with ICETPSS 2026 publication standards.
+            compliance with ICETPS 2026 publication standards.
           </p>
 
           {/* Top Button */}
@@ -29,11 +29,9 @@ const Submission = () => {
             <Button
               size="lg"
               className="bg-gradient-to-r from-cyan-500 to-sky-600 text-white font-semibold shadow-lg hover:shadow-[0_0_20px_rgba(56,189,248,0.6)] hover:scale-105 transition-all duration-300 px-8 py-6 text-lg"
-              onClick={() =>
-                window.open("https://edas.info/newPaper.php?c=34691", "_blank")
-              }
+              disabled
             >
-              Submit Via Edas
+              Submit Via EDAS
             </Button>
             <span className="text-cyan-600 font-medium mt-2 text-sm animate-pulse">
               Click here
@@ -53,15 +51,8 @@ const Submission = () => {
                 title: "Prepare Paper",
                 desc: (
                   <>
-                    Format your paper using the{" "}
-                    <a
-                      href="/ICETPSS-2026-paper-format.pdf"
-                      download
-                      className="text-blue-600 underline hover:text-blue-800"
-                    >
-                      official conference template (PDF)
-                    </a>
-                    .
+                    Format your paper according to standard academic writing
+                    conventions in English.
                   </>
                 ),
               },
@@ -115,14 +106,9 @@ const Submission = () => {
               <Button
                 size="lg"
                 className="bg-white text-cyan-700 font-semibold hover:bg-cyan-100 transition-transform hover:scale-105"
-                onClick={() =>
-                  window.open(
-                    "https://edas.info/newPaper.php?c=34691",
-                    "_blank",
-                  )
-                }
+                disabled
               >
-                Submit Via Edas
+                Submit Via EDAS
               </Button>
               <span className="text-white font-medium mt-2 text-sm">
                 Click here

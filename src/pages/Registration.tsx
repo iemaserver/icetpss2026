@@ -44,7 +44,7 @@ const Registration = () => {
           <h1 className="text-primary mb-4">Registration</h1>
           <div className="w-24 h-1 bg-gradient-primary mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Register for ICETPSS 2026 and be part of an exciting academic event.
+            Register for ICETPS 2026 and be part of an exciting academic event.
           </p>
         </div>
 
@@ -127,7 +127,7 @@ const Registration = () => {
               Register & Submit
             </h2>
             <p className="text-xl mb-10 opacity-90">
-              Secure your spot or submit your paper for ICETPSS 2026 via EDAS
+              Secure your spot or submit your paper for ICETPS 2026 via EDAS
             </p>
 
             <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
@@ -137,12 +137,7 @@ const Registration = () => {
                 className="bg-white text-primary hover:bg-white/90 font-bold text-lg px-8 py-7 h-auto w-full md:w-auto min-w-[280px] 
                            shadow-[0_10px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_15px_25px_rgba(0,0,0,0.3)] hover:-translate-y-1 
                            transition-all duration-300 rounded-xl group"
-                onClick={() =>
-                  window.open(
-                    "https://edas.info/newPaper.php?c=34691",
-                    "_blank",
-                  )
-                }
+                disabled
               >
                 <span>Register Now (EDAS)</span>
                 <ExternalLink className="ml-2 h-5 w-5 opacity-70 group-hover:opacity-100 transition-opacity" />
@@ -154,12 +149,7 @@ const Registration = () => {
                 className="bg-white text-primary hover:bg-white/90 font-bold text-lg px-8 py-7 h-auto w-full md:w-auto min-w-[280px] 
                            shadow-[0_10px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_15px_25px_rgba(0,0,0,0.3)] hover:-translate-y-1 
                            transition-all duration-300 rounded-xl group"
-                onClick={() =>
-                  window.open(
-                    "https://edas.info/newPaper.php?c=34691",
-                    "_blank",
-                  )
-                }
+                disabled
               >
                 <span>Submit Paper (EDAS)</span>
                 <ExternalLink className="ml-2 h-5 w-5 opacity-70 group-hover:opacity-100 transition-opacity" />
@@ -167,7 +157,7 @@ const Registration = () => {
             </div>
 
             <p className="mt-8 text-sm opacity-75">
-              For registration queries, contact: registration@icetpss2026.org
+              For registration queries, contact: registration@icetps2026.org
             </p>
           </div>
         </Card>

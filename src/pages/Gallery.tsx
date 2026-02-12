@@ -24,7 +24,7 @@ const Gallery = () => {
           <ImageIcon className="h-16 w-16 text-secondary mx-auto mb-4" />
           <h2 className="text-2xl font-bold mb-3">Gallery Coming Soon</h2>
           <p className="text-lg text-muted-foreground">
-            Photos from ICETPSS 2026 will be uploaded here during and after the
+            Photos from ICETPS 2026 will be uploaded here during and after the
             conference. Check back soon to see highlights from keynote sessions,
             paper presentations, networking events, and more.
           </p>
@@ -88,19 +88,19 @@ const Gallery = () => {
         {/* Photo Submission */}
         <Card className="p-8 mt-12 bg-muted border-t-4 border-t-primary">
           <h2 className="text-2xl font-bold mb-4 text-primary">
-            Share Your ICETPSS Moments
+            Share Your ICETPS Moments
           </h2>
           <p className="text-lg text-muted-foreground mb-4">
-            Attended a previous ICETPSS conference? We'd love to feature your
+            Attended a previous ICETPS conference? We'd love to feature your
             photos in our gallery! Send your high-resolution images to us.
           </p>
           <p className="text-muted-foreground">
             Email:{" "}
             <a
-              href="mailto:gallery@icetpss2026.org"
+              href="mailto:gallery@icetps2026.org"
               className="text-primary hover:underline font-semibold"
             >
-              gallery@icetpss2026.org
+              gallery@icetps2026.org
             </a>
           </p>
         </Card>

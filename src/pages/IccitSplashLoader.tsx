@@ -108,10 +108,10 @@ export default function IccitSplashLoader({ children }: SplashLoaderProps) {
               boxShadow: { duration: 1.5, ease: "easeInOut", repeat: Infinity },
             }}
           >
-            {/* Logo Placeholder (Adjusted text for ICETPSS) */}
+            {/* Logo Placeholder (Adjusted text for ICETPS) */}
             <motion.img
-              src="https://placehold.co/120x120/0A1A2F/10B981?text=ICETPSS" // Green placeholder
-              alt="ICETPSS Logo"
+              src="https://placehold.co/120x120/0A1A2F/10B981?text=ICETPS" // Green placeholder
+              alt="ICETPS Logo"
               className="w-24 h-24 object-contain rounded-full border-2 border-[#10B981]" // Green border
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -119,7 +119,7 @@ export default function IccitSplashLoader({ children }: SplashLoaderProps) {
               onError={(e) => {
                 e.currentTarget.onerror = null;
                 e.currentTarget.src =
-                  "https://placehold.co/120x120/0A1A2F/10B981?text=ICETPSS";
+                  "https://placehold.co/120x120/0A1A2F/10B981?text=ICETPS";
               }} // Green fallback
             />
           </motion.div>

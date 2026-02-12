@@ -1,5 +1,6 @@
 import React from "react";
-import ApaStylePdf from "@/assets/APA-style-of-referencing_7th_-Edn.pdf"; // Import the PDF file
+import { Card } from "@/components/ui/card";
+import { Clock } from "lucide-react";
 
 const StyleOfReferencingPage = () => {
   return (
@@ -8,43 +9,27 @@ const StyleOfReferencingPage = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-5xl font-extrabold mb-4 leading-tight tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-500 to-blue-600 drop-shadow-[0_0_20px_rgba(56,189,248,0.5)]">
-            APA Style of Referencing (7th Edition)
+            Submission Guidelines
           </h1>
           <p className="text-lg text-[#1e293b] max-w-3xl mx-auto font-medium leading-relaxed">
-            Please find below the detailed guidelines for the APA 7th Edition
-            referencing style. Ensure your citations and bibliography adhere to
-            this specified format for all submissions to ICETPSS 2026.
+            All papers must be written in English. Please ensure your submission
+            follows standard academic writing conventions and proper citation
+            practices.
           </p>
         </div>
 
-        {/* PDF Viewer */}
-        <div className="mb-12">
-          <h2 className="text-3xl font-bold text-center mb-6 text-sky-700">
-            View Referencing Guidelines
-          </h2>
-          <div className="aspect-w-16 aspect-h-9 mb-6">
-            <iframe
-              src={ApaStylePdf}
-              width="100%"
-              height="600px" // You can adjust the height as needed
-              style={{ border: "none" }}
-              title="APA Style of Referencing 7th Edition"
-              className="rounded-lg shadow-lg"
-            >
-              This browser does not support PDFs. Please download the PDF to
-              view it.
-            </iframe>
-          </div>
-          <p className="text-center text-lg text-[#1e293b] font-medium">
-            If the PDF does not load, you can download it directly:{" "}
-            <a
-              href={ApaStylePdf}
-              download="APA-style-of-referencing_7th_-Edn.pdf"
-              className="text-cyan-600 hover:underline font-semibold"
-            >
-              Download PDF
-            </a>
-          </p>
+        {/* Coming Soon Notice */}
+        <div className="max-w-2xl mx-auto mt-16">
+          <Card className="p-10 md:p-14 shadow-lg border-t-4 border-t-amber-500 bg-amber-50 text-center">
+            <Clock className="w-16 h-16 text-amber-500 mx-auto mb-6 animate-pulse" />
+            <h3 className="text-3xl font-bold text-amber-900 mb-4">
+              Coming Soon
+            </h3>
+            <p className="text-lg text-amber-800">
+              Complete submission guidelines and referencing information will be
+              available soon.
+            </p>
+          </Card>
         </div>
       </div>
     </div>
