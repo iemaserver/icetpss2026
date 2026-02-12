@@ -39,7 +39,12 @@ const members: CommitteeMember[] = [
     designation: "Professor",
     affiliation: "Institute of Engineering & Management, Kolkata, India",
   },
-
+  {
+    role: "Convener",
+    name: "Prof. Koyel Ganguly",
+    designation: "Professor",
+    affiliation: "Institute of Engineering & Management, Kolkata, India",
+  },
   // === Publicity Chair ===
   {
     role: "Publicity Chair",
