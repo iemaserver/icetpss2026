@@ -39,7 +39,7 @@ const ConferenceProceedingsPage = () => {
 
             <p className="text-xl text-slate-600 mb-12 leading-relaxed">
               All accepted and registered papers will be published in the
-              conference proceedings in association with Atlantis Press.
+              conference proceedings.
             </p>
           </Card>
         </motion.div>

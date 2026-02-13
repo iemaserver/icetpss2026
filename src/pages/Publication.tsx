@@ -26,16 +26,12 @@ const Publication = () => {
                 <h2 className="text-3xl font-bold mb-2 text-blue-600">
                   Conference Proceedings
                 </h2>
-                <p className="text-gray-600">
-                  Published in Atlantis Press/Springer Nature
-                </p>
               </div>
             </div>
             <div className="space-y-4 text-lg text-gray-700">
               <p>
                 All accepted and registered papers will be published in the
-                conference proceedings in association with Atlantis Press, part
-                of Springer Nature.
+                conference proceedings.
               </p>
             </div>
           </Card>
