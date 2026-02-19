@@ -25,6 +25,11 @@ const members: CommitteeMember[] = [
     designation: "Associate Professor",
     affiliation: "Jadavpur University",
   },
+  {
+    name: "Prof. Amina Omrane",
+    designation: "Professor",
+    affiliation: "University of Sfax, Tunisia",
+  },
 ];
 
 const TechnicalCommitteePage: React.FC = () => {
