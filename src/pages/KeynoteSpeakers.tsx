@@ -1,28 +1,24 @@
 import { Card } from "@/components/ui/card";
-import { Mic, Calendar, Award } from "lucide-react";
+import { Calendar } from "lucide-react";
 import { motion } from "framer-motion";
 
 const KeynoteSpeakers = () => {
-  const upcomingSpeakers = [
+  const confirmedSpeakers = [
     {
-      name: "Speaker Announcement Soon",
-      designation: "Awaiting Confirmation",
-      topic: "To Be Revealed",
+      name: "Dr. Pere Roca i Cabarrocas",
+      designation:
+        "Research Director, CNRS & Scientific Director, Institut Photovoltaïque d’Île-de-France (IPVF), France",
+      topic:
+        "Advanced Photovoltaic Technologies and the Future of Sustainable Solar Energy",
+      image: "/pere-roca%20(1).jpg",
     },
     {
-      name: "Speaker Announcement Soon",
-      designation: "Awaiting Confirmation",
-      topic: "To Be Revealed",
-    },
-    {
-      name: "Speaker Announcement Soon",
-      designation: "Awaiting Confirmation",
-      topic: "To Be Revealed",
-    },
-    {
-      name: "Speaker Announcement Soon",
-      designation: "Awaiting Confirmation",
-      topic: "To Be Revealed",
+      name: "Prof. Maurizio Bozzi",
+      designation:
+        "IEEE Fellow | Full Professor, University of Pavia, Italy | 2024 President, IEEE Microwave Theory & Technology Society (MTT-S)",
+      topic:
+        "Microwave and Terahertz Technologies for Next-Generation Communication Systems",
+      image: "/maurizio-bozzi%20(1).jpg",
     },
   ];
 
@@ -41,16 +37,15 @@ const KeynoteSpeakers = () => {
           </h1>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-sky-500 mx-auto mb-6 rounded"></div>
           <p className="text-lg text-[#1e293b] max-w-3xl mx-auto leading-relaxed">
-            <span className="font-semibold text-sky-600">ICETPS 2026</span> will
-            feature a lineup of distinguished keynote speakers from across the
-            globe. Our confirmed speaker list will be announced soon — stay
-            tuned for updates!
+            <span className="font-semibold text-sky-600">ICETPS 2026</span>
+            presents distinguished keynote speakers from world-leading
+            institutions.
           </p>
         </div>
 
-        {/* Placeholder Speaker Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-24">
-          {upcomingSpeakers.map((speaker, i) => (
+        {/* Confirmed Speaker Cards */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mb-24">
+          {confirmedSpeakers.map((speaker, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, scale: 0.9 }}
@@ -58,25 +53,29 @@ const KeynoteSpeakers = () => {
               transition={{ duration: 0.5, delay: i * 0.2 }}
               viewport={{ once: true }}
             >
-              <Card className="p-8 bg-white border border-cyan-100 rounded-2xl text-center shadow-sm hover:shadow-[0_0_25px_#38bdf8] transition-all duration-300">
-                <div className="relative w-24 h-24 mx-auto mb-6 flex items-center justify-center">
-                  <div className="absolute inset-0 bg-cyan-400 rounded-full blur-2xl opacity-40 animate-pulse"></div>
-                  <div className="relative bg-gradient-to-br from-cyan-400 to-sky-500 rounded-full w-24 h-24 flex items-center justify-center text-white shadow-[0_0_25px_#06b6d4]">
-                    <Mic className="h-10 w-10" />
-                  </div>
+              <Card className="h-full bg-[#f3f4f6] border border-cyan-100 rounded-[2rem] shadow-[0_8px_24px_rgba(15,23,42,0.08)] px-8 pb-10 pt-8 text-center">
+                <div className="w-full flex justify-center mb-8">
+                  <img
+                    src={speaker.image}
+                    alt={speaker.name}
+                    className="w-36 h-36 rounded-full object-cover border-4 border-white shadow-md"
+                  />
                 </div>
 
-                <h2 className="text-xl font-bold text-sky-700 mb-2">
+                <h2 className="text-3xl md:text-4xl font-extrabold text-[#0e6597] mb-6 leading-snug">
                   {speaker.name}
                 </h2>
-                <p className="text-cyan-600 font-medium mb-3">
+                <p className="text-[#0088b6] text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto mb-7">
                   {speaker.designation}
                 </p>
-                <div className="bg-gradient-to-r from-cyan-50 to-sky-50 rounded-lg p-3 shadow-inner border border-cyan-100">
-                  <h3 className="text-xs text-slate-500 font-semibold mb-1">
-                    TOPIC
+
+                <div className="bg-[#d9e4ea] rounded-3xl px-8 py-7 border border-cyan-100 max-w-3xl mx-auto">
+                  <h3 className="text-xs md:text-sm text-slate-500 font-bold mb-2 uppercase tracking-[0.16em]">
+                    Keynote Talk
                   </h3>
-                  <p className="text-sky-700 font-semibold">{speaker.topic}</p>
+                  <p className="text-[#03558a] text-xl md:text-2xl font-semibold leading-snug">
+                    {speaker.topic}
+                  </p>
                 </div>
               </Card>
             </motion.div>
@@ -133,7 +132,7 @@ const KeynoteSpeakers = () => {
                 href="mailto:speakers@icetps2026.org"
                 className="text-cyan-600 hover:underline font-semibold"
               >
-                speakers@icetps2026.org
+                koyel.ganguly@iem.edu.in
               </a>{" "}
               to collaborate and share your expertise at this prestigious event.
             </p>

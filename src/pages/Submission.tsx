@@ -129,6 +129,120 @@ const Submission = () => {
           </Card>
         </motion.div>
 
+        {/* Guidelines to Authors */}
+        <Card className="p-10 mb-16 bg-gradient-to-br from-cyan-50 to-blue-100 border border-sky-200 shadow-md rounded-2xl">
+          <h2 className="text-3xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-sky-600">
+            Guidelines to Authors
+          </h2>
+          <ul className="space-y-4 text-lg text-[#1e293b] font-medium leading-relaxed">
+            <li>
+              • Instructions{" "}
+              <span className="text-cyan-600 font-semibold">
+                “How to prepare your article”
+              </span>
+              :{" "}
+              <a
+                href="https://www.epj-conferences.org/doc_journal/woc/pdf_guidelines.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sky-600 underline underline-offset-4 hover:text-cyan-600"
+              >
+                PDF Guidelines
+              </a>
+              .
+            </li>
+            <li>
+              • Instructions{" "}
+              <span className="text-cyan-600 font-semibold">
+                “How to write title and abstract”
+              </span>{" "}
+              are attached.
+            </li>
+            <li>
+              • Publication right form (to be signed by at least one author):{" "}
+              <a
+                href="https://www.epj-conferences.org/doc_journal/woc/publication_right_form.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sky-600 underline underline-offset-4 hover:text-cyan-600"
+              >
+                Publication Right Form
+              </a>
+              .
+            </li>
+            <li>
+              • Ethical rules:{" "}
+              <a
+                href="https://www.epj-conferences.org/about-the-journal/publishing-policies-ethics"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sky-600 underline underline-offset-4 hover:text-cyan-600"
+              >
+                Publishing Policies & Ethics
+              </a>
+              .
+            </li>
+            <li>
+              • General editorial guideline:{" "}
+              <a
+                href="https://www.epj-conferences.org/doc_journal/woc/epjconf_editorial_guidelines.pdf"
+                target="_blank"
+                rel="noreferrer"
+                className="text-sky-600 underline underline-offset-4 hover:text-cyan-600"
+              >
+                Editorial Guidelines
+              </a>
+              .
+            </li>
+            <li>
+              • The template for writing the paper is attached. Please adhere
+              strictly to the template.
+            </li>
+            <li>
+              • Articles will be checked using a plagiarism tool. Any ethical
+              misconduct will be considered very seriously.
+            </li>
+            <li>
+              • Required file type:{" "}
+              <span className="text-sky-600 font-semibold">
+                camera-ready PDF
+              </span>
+              . Authors must carefully follow the attached camera-ready file
+              preparation guideline.
+            </li>
+            <li>
+              • Extra care must be paid to author names and references.
+              References are linked via Crossref only when correctly presented.
+            </li>
+            <li>
+              • The given-name (first name) must be written in{" "}
+              <span className="italic text-cyan-600 font-semibold">ITALIC</span>
+              . If this is incorrect, authors may not be properly indexed.
+            </li>
+            <li>
+              • Complete affiliation must be mentioned: Department, Institution,
+              City, and Country.
+            </li>
+          </ul>
+
+          <div className="mt-8 p-6 rounded-xl border border-cyan-200 bg-white/80">
+            <h3 className="text-xl font-bold text-sky-700 mb-3">
+              Example to Follow
+            </h3>
+            <p className="text-[#1e293b] font-semibold mb-2">
+              Manohar Gangikunta1 and Sonnati Venkateshwarlu2
+            </p>
+            <p className="text-[#334155] leading-relaxed">
+              1 Associate Professor, EEE Department, CVR College of Engineering,
+              Hyderabad, India
+            </p>
+            <p className="text-[#334155] leading-relaxed">
+              2 Professor, EEE Department, CVR College of Engineering,
+              Hyderabad, India
+            </p>
+          </div>
+        </Card>
+
         {/* Review Process */}
         <Card className="p-10 border-t-4 border-t-cyan-500 rounded-2xl bg-white">
           <h2 className="text-3xl font-bold mb-6 text-sky-700">

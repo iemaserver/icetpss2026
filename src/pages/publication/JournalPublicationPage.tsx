@@ -34,11 +34,11 @@ const JournalPublicationPage = () => {
           <Card className="p-10 md:p-14 shadow-lg border-t-4 border-t-blue-500 bg-white text-center">
             <FileText className="w-16 h-16 text-blue-600 mx-auto mb-6" />
             <h3 className="text-3xl font-bold text-slate-800 mb-4">
-              EPJ Web of Conferences
+              European Physical Journal - Web of Conferences
             </h3>
             <p className="text-lg text-slate-700 max-w-3xl mx-auto leading-relaxed">
-              Selected Articles to be published in EPJ Web of Conferences after
-              peer review.
+              Selected Articles to be published in European Physical Journal -
+              Web of Conferences after peer review.
             </p>
           </Card>
         </motion.div>
