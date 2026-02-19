@@ -8,7 +8,7 @@ const timelineData = [
   {
     id: 1,
     title: "Full Paper Submission",
-    date: "15 Feb, 2026",
+    date: "1 Mar, 2026",
     description: "Submit research papers.",
     icon: Calendar,
   },
