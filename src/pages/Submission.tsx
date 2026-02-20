@@ -4,6 +4,8 @@ import { Upload, AlertCircle } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
+const PAPER_SUBMISSION_LINK = "https://edas.info/newPaper.php?c=35073";
+
 const Submission = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-blue-50 text-[#0f172a] pt-24 pb-16 px-4 sm:px-6 lg:px-8 font-sans">
@@ -28,11 +30,13 @@ const Submission = () => {
           {/* Top Button */}
           <div className="flex flex-col items-center justify-center">
             <Button
+              asChild
               size="lg"
               className="bg-gradient-to-r from-cyan-500 to-sky-600 text-white font-semibold shadow-lg hover:shadow-[0_0_20px_rgba(56,189,248,0.6)] hover:scale-105 transition-all duration-300 px-8 py-6 text-lg"
-              disabled
             >
-              Submit Via EDAS
+              <a href={PAPER_SUBMISSION_LINK} target="_blank" rel="noreferrer">
+                Submit Via EDAS
+              </a>
             </Button>
             <span className="text-cyan-600 font-medium mt-2 text-sm animate-pulse">
               Click here
@@ -112,11 +116,17 @@ const Submission = () => {
             {/* Bottom Button */}
             <div className="flex flex-col items-center">
               <Button
+                asChild
                 size="lg"
                 className="bg-white text-cyan-700 font-semibold hover:bg-cyan-100 transition-transform hover:scale-105"
-                disabled
               >
-                Submit Via EDAS
+                <a
+                  href={PAPER_SUBMISSION_LINK}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Submit Via EDAS
+                </a>
               </Button>
               <span className="text-white font-medium mt-2 text-sm">
                 Click here

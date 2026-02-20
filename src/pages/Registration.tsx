@@ -8,6 +8,8 @@ import {
   ExternalLink,
 } from "lucide-react";
 
+const PAPER_SUBMISSION_LINK = "https://edas.info/newPaper.php?c=35073";
+
 const Registration = () => {
   const registrationCategories = [
     {
@@ -132,26 +134,38 @@ const Registration = () => {
             <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
               {/* UPDATED BUTTON 1: Register Now */}
               <Button
+                asChild
                 size="lg"
                 className="bg-white text-primary hover:bg-white/90 font-bold text-lg px-8 py-7 h-auto w-full md:w-auto min-w-[280px] 
                            shadow-[0_10px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_15px_25px_rgba(0,0,0,0.3)] hover:-translate-y-1 
                            transition-all duration-300 rounded-xl group"
-                disabled
               >
-                <span>Register Now (EDAS)</span>
-                <ExternalLink className="ml-2 h-5 w-5 opacity-70 group-hover:opacity-100 transition-opacity" />
+                <a
+                  href={PAPER_SUBMISSION_LINK}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span>Register Now (EDAS)</span>
+                  <ExternalLink className="ml-2 h-5 w-5 opacity-70 group-hover:opacity-100 transition-opacity" />
+                </a>
               </Button>
 
               {/* UPDATED BUTTON 2: Submit Paper */}
               <Button
+                asChild
                 size="lg"
                 className="bg-white text-primary hover:bg-white/90 font-bold text-lg px-8 py-7 h-auto w-full md:w-auto min-w-[280px] 
                            shadow-[0_10px_20px_rgba(0,0,0,0.2)] hover:shadow-[0_15px_25px_rgba(0,0,0,0.3)] hover:-translate-y-1 
                            transition-all duration-300 rounded-xl group"
-                disabled
               >
-                <span>Submit Paper (EDAS)</span>
-                <ExternalLink className="ml-2 h-5 w-5 opacity-70 group-hover:opacity-100 transition-opacity" />
+                <a
+                  href={PAPER_SUBMISSION_LINK}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span>Submit Paper (EDAS)</span>
+                  <ExternalLink className="ml-2 h-5 w-5 opacity-70 group-hover:opacity-100 transition-opacity" />
+                </a>
               </Button>
             </div>
 
