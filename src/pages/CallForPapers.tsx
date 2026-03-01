@@ -53,10 +53,10 @@ const tracks = [
 ];
 
 const importantDates = [
-  { event: "Full Paper Submission", date: "1st March, 2026" },
-  { event: "Acceptance Notification", date: "10th March, 2026" },
-  { event: "Registration Deadline", date: "20th March, 2026" },
-  { event: "Presentation Submission", date: "20th March, 2026" },
+  { event: "Full Paper Submission", date: "15th March, 2026" },
+  { event: "Acceptance Notification", date: "22nd March, 2026" },
+  { event: "Registration Deadline", date: "29th March, 2026" },
+  { event: "Presentation Submission", date: "05th April, 2026" },
   { event: "Conference Dates", date: "21st – 23rd April, 2026" },
 ];
 
