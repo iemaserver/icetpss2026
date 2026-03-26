@@ -31,6 +31,11 @@ const members: CommitteeMember[] = [
     designation: "Professor",
     affiliation: "University of Sfax, Tunisia",
   },
+  {
+    name: "Kamran Hameed Khawaja",
+    designation: "Lecturer",
+    affiliation: "Imam Abdulrahman Bin Faisal University",
+  },
 ];
 
 const TechnicalCommitteePage: React.FC = () => {
