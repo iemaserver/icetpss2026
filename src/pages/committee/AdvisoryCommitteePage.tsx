@@ -70,6 +70,16 @@ const members: AdvisoryMember[] = [
     affiliation:
       "College of Healthcare Management & Economics, Gulf Medical University, UAE",
   },
+  {
+    name: "Shahab Tayeb",
+    designation: "Associate Professor",
+    affiliation: "California State University",
+  },
+  {
+    name: "Dr. Pravir Malik",
+    designation: "Founder & CEO",
+    affiliation: "Deep Order Technologies",
+  },
 ];
 
 const AdvisoryCommitteePage: React.FC = () => {
