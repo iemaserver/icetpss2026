@@ -26,6 +26,16 @@ const members: AdvisoryMember[] = [
       "University of Puerto Rico, USA & University of Reading, UK, EIC - International Journal of Consumer Studies (Wiley)",
   },
   {
+    name: "Prof. RANJAN CHAUDHURI",
+    designation: "DIRECTOR OF THE DBA",
+    affiliation: "EMLV Business School, Paris, France",
+  },
+  {
+    name: "Prof. Geeta Sandeep Nadella",
+    designation: "CSP-SM® | Quality Assurance Specialist",
+    affiliation: "SMIEEE | IEEE ENCS Computer Society Chair",
+  },
+  {
     name: "Rajesh Mohnot",
     designation: "Professor, Head of Finance Department",
     affiliation: "Ajman University, Dubai, UAE",
