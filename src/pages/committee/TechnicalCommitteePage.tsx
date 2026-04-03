@@ -36,6 +36,17 @@ const members: CommitteeMember[] = [
     designation: "Lecturer",
     affiliation: "Imam Abdulrahman Bin Faisal University",
   },
+  {
+    name: "Shahriar Khan",
+    designation: "Professor",
+    affiliation: "Independent University Bangladesh",
+  },
+  {
+    name: "Deyby Huamanchahua C., PhD.",
+    designation:
+      "Profesor Auxiliar, Departamento de Ingeniería Electrónica y Mecatrónica, Coordinador de la Línea de Investigación en Biorobótica",
+    affiliation: "Universidad de Ingeniería y Tecnología (UTEC), Peru",
+  },
 ];
 
 const TechnicalCommitteePage: React.FC = () => {
