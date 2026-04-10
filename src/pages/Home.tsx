@@ -89,8 +89,9 @@ const Home = () => {
               and Sustainability
             </h1>
             <h3 className="text-xl md:text-2xl lg:text-3xl font-extrabold leading-tight text-[#ffff] mb-4">
-              In association with EMLV - The Leonard De Vinci Business School,
-              Paris, France
+              In association with EMLV – The Leonard De Vinci Business School,
+              Paris, France and ESILV – Ecole Supérieure d'Ingénieurs, Léonard
+              de Vinci, Paris, France
             </h3>
 
             <div className="flex flex-wrap items-center gap-3 text-[#92b3e7] text-base md:text-lg mb-6">

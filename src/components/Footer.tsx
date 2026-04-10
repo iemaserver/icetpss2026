@@ -20,8 +20,9 @@ export const Footer = () => {
                 and Sustainability
               </strong>
               <br />
-              In association with EMLV - The Leonard De Vinci Business School,
-              Paris
+              In association with EMLV – The Leonard De Vinci Business School,
+              Paris, France and ESILV – Ecole Supérieure d'Ingénieurs, Léonard
+              de Vinci, Paris, France
               <br />
               Venue:- The Photovoltaic Institute of Île-de-France, France, Paris
             </p>
@@ -127,8 +128,9 @@ export const Footer = () => {
         {/* Footer Bottom */}
         <div className="text-center text-sm text-slate-500">
           <p>
-            © 2026 ICETPS | In association with EMLV - The Leonard De Vinci
-            Business School, Paris
+            © 2026 ICETPS | In association with EMLV – The Leonard De Vinci
+            Business School, Paris, France and ESILV – Ecole Supérieure
+            d'Ingénieurs, Léonard de Vinci, Paris, France
           </p>
           <p className="mt-1">
             In collaboration with{" "}
