@@ -20,6 +20,27 @@ const KeynoteSpeakers = () => {
         "Microwave and Terahertz Technologies for Next-Generation Communication Systems",
       image: "/maurizio-bozzi%20(1).jpg",
     },
+    {
+      name: "Professor Ilkyeong Moon, Ph.D., P.E.",
+      designation:
+        "Department of Industrial Engineering, Seoul National University, Seoul 08826, Korea",
+      topic: "Keynote talk title to be announced",
+      image: "/ilkyeong-moon.jpg",
+      profile:
+        "Co-Editor-in-Chief, European Journal of Industrial Engineering (EJIE) | Fellow, Korean Academy of Science and Technology (KAST) | Fellow, International Foundation for Production Research (IFPR) | Former President (2019-2020), Korean Institute of Industrial Engineers (KIIE)",
+      contact:
+        "Phone: +82-2-880-7151 | Fax: +82-2-889-8560 | Mobile: +82-10-9470-2451",
+      links: [
+        { label: "Homepage", url: "http://scm.snu.ac.kr/" },
+        {
+          label: "EJIE Homepage",
+          url: "https://www.inderscience.com/jhome.php?jcode=ejie",
+        },
+        { label: "KAST Homepage", url: "https://kast.or.kr/en/" },
+        { label: "IFPR Homepage", url: "https://ifpr-icpr.org" },
+        { label: "KIIE Homepage", url: "http://kiie.org/" },
+      ],
+    },
   ];
 
   return (
@@ -68,6 +89,34 @@ const KeynoteSpeakers = () => {
                 <p className="text-[#0088b6] text-xl md:text-2xl leading-relaxed max-w-2xl mx-auto mb-7">
                   {speaker.designation}
                 </p>
+
+                {speaker.profile && (
+                  <p className="text-slate-700 text-sm md:text-base leading-relaxed max-w-3xl mx-auto mb-4">
+                    {speaker.profile}
+                  </p>
+                )}
+
+                {speaker.contact && (
+                  <p className="text-slate-600 text-sm md:text-base leading-relaxed max-w-3xl mx-auto mb-6">
+                    {speaker.contact}
+                  </p>
+                )}
+
+                {speaker.links && speaker.links.length > 0 && (
+                  <div className="mb-6 flex flex-wrap items-center justify-center gap-2 text-sm">
+                    {speaker.links.map((link) => (
+                      <a
+                        key={link.url}
+                        href={link.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="rounded-full border border-cyan-200 bg-white px-3 py-1 text-cyan-700 hover:bg-cyan-50"
+                      >
+                        {link.label}
+                      </a>
+                    ))}
+                  </div>
+                )}
 
                 <div className="bg-[#d9e4ea] rounded-3xl px-8 py-7 border border-cyan-100 max-w-3xl mx-auto">
                   <h3 className="text-xs md:text-sm text-slate-500 font-bold mb-2 uppercase tracking-[0.16em]">
