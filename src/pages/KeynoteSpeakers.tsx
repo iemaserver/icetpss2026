@@ -41,6 +41,14 @@ const KeynoteSpeakers = () => {
         { label: "KIIE Homepage", url: "http://kiie.org/" },
       ],
     },
+    {
+      name: "Sulekha Chattopadhyay, PhD",
+      designation:
+        "Transportation and Air Quality Expert, Fulbright Specialist, IEEE Senior Member (APS, EMBS, MTTS, VTS, WIE)",
+      image: "/sulekha-chattopadhyay.jpg",
+      profile:
+        "California Air Resources Board | University of California, Riverside | Los Angeles Metropolitan Area",
+    },
   ];
 
   return (
@@ -118,14 +126,16 @@ const KeynoteSpeakers = () => {
                   </div>
                 )}
 
-                <div className="bg-[#d9e4ea] rounded-3xl px-8 py-7 border border-cyan-100 max-w-3xl mx-auto">
-                  <h3 className="text-xs md:text-sm text-slate-500 font-bold mb-2 uppercase tracking-[0.16em]">
-                    Keynote Talk
-                  </h3>
-                  <p className="text-[#03558a] text-xl md:text-2xl font-semibold leading-snug">
-                    {speaker.topic}
-                  </p>
-                </div>
+                {speaker.topic && (
+                  <div className="bg-[#d9e4ea] rounded-3xl px-8 py-7 border border-cyan-100 max-w-3xl mx-auto">
+                    <h3 className="text-xs md:text-sm text-slate-500 font-bold mb-2 uppercase tracking-[0.16em]">
+                      Keynote Talk
+                    </h3>
+                    <p className="text-[#03558a] text-xl md:text-2xl font-semibold leading-snug">
+                      {speaker.topic}
+                    </p>
+                  </div>
+                )}
               </Card>
             </motion.div>
           ))}
