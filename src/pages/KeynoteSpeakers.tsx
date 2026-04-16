@@ -33,7 +33,7 @@ const KeynoteSpeakers = () => {
       designation:
         "Director (DBA), Distinguished Visiting Professor, IIMK and Full Professor of Digital Marketing Business at Ecole de Management Léonard de Vinci, Paris, France",
       topic:
-        "Microwave and Terahertz Technologies for Next-Generation Communication Systems",
+        "",
       image: "/Ranjan Chaudhuri.jpg",
     },
     {
@@ -41,7 +41,7 @@ const KeynoteSpeakers = () => {
       designation:
         "Professor at De Vinci Higher Education, Paris La Defense, ESILV - Ecole Supérieure d'Ingénieurs Léonard de Vinci Sorbonne Université France",
       topic:
-        "Microwave and Terahertz Technologies for Next-Generation Communication Systems",
+        "",
       image: "/allessandro-biancalani.jpg",
     },
     {
