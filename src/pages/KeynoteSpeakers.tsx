@@ -32,8 +32,7 @@ const KeynoteSpeakers = () => {
       name: "Prof. Ranjan Chaudhuri",
       designation:
         "Director (DBA), Distinguished Visiting Professor, IIMK and Full Professor of Digital Marketing Business at Ecole de Management Léonard de Vinci, Paris, France",
-      topic:
-        "",
+      topic: "",
       image: "/Ranjan Chaudhuri.jpg",
     },
     {
@@ -48,7 +47,7 @@ const KeynoteSpeakers = () => {
       name: "Professor Ilkyeong Moon, Ph.D., P.E.",
       designation:
         "Department of Industrial Engineering, Seoul National University, Seoul 08826, Korea",
-      topic: "Keynote talk title to be announced",
+      topic: "Research Issues in SCM Optimization",
       image: "/ilkyeong-moon.jpg",
       profile:
         "Co-Editor-in-Chief, European Journal of Industrial Engineering (EJIE) | Fellow, Korean Academy of Science and Technology (KAST) | Fellow, International Foundation for Production Research (IFPR) | Former President (2019-2020), Korean Institute of Industrial Engineers (KIIE)",
